@@ -1,0 +1,65 @@
+.header__info{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr  1fr  1fr ;
+}
+.header{ 
+    padding-right: 100px;
+    padding-left: 100px;
+}
+.header__background{
+ display: flex;
+ flex-direction: row-reverse;
+}
+.header__background_icon{
+width: 40%;
+padding-left: 100px;
+}
+.header__logo{
+    display: flex; 
+    align-items: center;
+    grid-row: 1 ;
+  grid-column: 1 / 2;
+}
+.text__one{
+    padding-left: 10px;
+    font-weight: 800;
+    font-size: 1.3rem;
+}
+
+.button__basket{
+    grid-row: 1 ;
+    grid-column: 4;
+}
+
+.header__title{
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 80px;
+
+}
+.header__title-vr{
+    font-size: 60px;
+    line-height: 72px;
+    font-weight: bold;
+}
+.header__text{
+    padding-top: 20px;
+    padding-bottom: 30px;
+    width: 75%;
+    font-size: 20px;
+    font-weight: 300; 
+    line-height: 32px;
+}
+.header__navigation{
+display: flex;
+flex-direction: row;
+padding-left: 50px;
+font-size: 20px;
+font-weight: 300;
+color: rgba(82, 34, 208, 1);
+}
+ .navigation-buy, .navigation-delivery, .navigation-help{
+padding-left: 35px;
+}

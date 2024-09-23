@@ -1,0 +1,108 @@
+.header__info{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr  1fr  1fr ;
+}
+.header{ 
+    padding-right: 100px;
+    padding-left: 100px;
+}
+.header__background{
+ display: flex;
+ flex-direction: row-reverse;
+}
+.header__background_icon{
+width: 40%;
+padding-left: 100px;
+}
+.header__logo{
+    display: flex; 
+    align-items: center;
+    grid-row: 1 ;
+  grid-column: 1 / 2;
+}
+.header__title{
+    padding-left: 10px;
+    font-weight: 800;
+    font-size: 1.3rem;
+}
+
+.button__basket{
+    grid-row: 1 ;
+    grid-column: 4;
+}
+
+.opportunities__title{
+    font-size: 60px;
+    line-height: 72px;
+    font-weight: bold;
+    padding-top: 90px;
+    padding-bottom: 40px;
+}
+
+
+.opportunities__cards{
+    display: grid;
+    grid-template-rows:1fr 355px;
+    grid-template-columns: 1fr  1fr 1fr;
+}
+.opportunities__cards_wireless{
+    grid-row: 1 /2;
+    grid-column: 1/2;
+    padding-right: 80px;
+}
+.opportunities__no-computer{
+    grid-row: 1 /2;
+    grid-column: 2/3;
+    padding-right: 80px;
+}
+
+.opportunities__working-time{
+    grid-row: 1 /2;
+    grid-column: 3/4;
+}
+
+.wireless_text, .no-computer_text, .working-time_text,  .games_text, .price_text {
+    font-size: 20px;
+    font-weight: 300;
+    color: rgb(0, 0, 0); 
+    line-height:32px ;
+    width: 90%;
+}
+.opportunities__games { padding-top: 30px;
+    grid-row: 2/3;
+    grid-column: 1/2; padding-right: 80px; 
+}
+.opportunities__price{ padding-top: 30px;
+    grid-row: 2/3;
+    grid-column: 2/3;padding-right: 80px;
+}
+.working-time_text {
+    width: 50%;
+}
+.wireless_title, .no-computer_title, .working-time_title,  .games_title, .price_title{
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    padding-bottom: 20px;
+   
+}
+.header__navigation{
+    display: flex;
+    flex-direction: row;
+    padding-left: 50px;
+    font-size: 20px;
+    font-weight: 300;
+    color: rgb(0, 0, 0);
+    }
+.navigation-buy, .navigation-delivery, .navigation-help{
+    padding-left: 35px;
+    }
+.opportunities__form{
+    padding-top: 30px;
+    grid-row: 2/3;
+    grid-column: 3/4; padding-right: 80px;  
+}
+.opportunities{
+   padding-left: 110px;
+}
